@@ -86,7 +86,7 @@ from soni_translate.text_multiformat_processor import (
     create_video_from_images,
     merge_video_and_audio,
 )
-from soni_translate.languages_gui import language_data, news
+from soni_translate.languages_gui import language_data
 import copy
 import logging
 import json
@@ -2494,7 +2494,6 @@ def create_gui(theme, logs_in_gui=False):
 
         with gr.Tab(lg_conf["tab_help"]):
             gr.Markdown(lg_conf["tutorial"])
-            gr.Markdown(news)
 
             def play_sound_alert(play_sound):
 
