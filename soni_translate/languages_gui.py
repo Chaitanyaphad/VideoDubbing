@@ -31,24 +31,6 @@ language_data = {
 
         ---
 
-        # 🎤 How to Use R.V.C. and R.V.C.2 Voices (Optional) 🎶
-
-        The goal is to apply a R.V.C. to the generated TTS (Text-to-Speech) 🎙️
-
-        1. In the `Custom Voice R.V.C.` tab, download the models you need 📥 You can use links from Hugging Face and Google Drive in formats like zip, pth, or index. You can also download complete HF space repositories, but this option is not very stable 😕
-
-        2. Now, go to `Replace voice: TTS to R.V.C.` and check the `enable` box ✅ After this, you can choose the models you want to apply to each TTS speaker 👩‍🦰👨‍🦱👩‍🦳👨‍🦲
-
-        3. Adjust the F0 method that will be applied to all R.V.C. 🎛️
-
-        4. Press `APPLY CONFIGURATION` to apply the changes you made 🔄
-
-        5. Go back to the video translation tab and click on 'Translate' ▶️ Now, the translation will be done applying the R.V.C. 🗣️
-
-        Tip: You can use `Test R.V.C.` to experiment and find the best TTS or configurations to apply to the R.V.C. 🧪🔍
-
-        ---
-
         """,
         "tab_translate": "Video translation",
         "video_source": "Choose Video Source",
